@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="testCycle1" verbose="1">
+	<test name="AboutPage">
+		<classes>
+			<class name="com.qa.medicare.testcases.AboutMedicareTest" />
+		</classes>
+	</test>
+	<test name="ProductPage">
+		<classes>
+			<class name="com.qa.medicare.testcases.ProductRangePageTest" />
+		</classes>
+	</test>
+	<test name="OrderPage">
+		<classes>
+			<class name="com.qa.medicare.testcases.OrderInquiryPageTest" />
+		</classes>
+	</test>
+</suite>
